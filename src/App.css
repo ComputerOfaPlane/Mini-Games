@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+  background-color: #25363e;
+}
+#navlink{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+}
+#logo{
+  font-family:'Pixelify Sans',sans-serif ;
+  font-weight: 900;
+}
+#card:hover{
+  box-shadow: red;
+}
+#playbtn{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+}
