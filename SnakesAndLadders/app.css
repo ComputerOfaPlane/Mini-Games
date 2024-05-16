@@ -1,0 +1,210 @@
+*{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+}
+
+#board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #81B622;
+}
+
+.format{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: thin solid;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: lightgray;
+}
+
+#footer h4{
+    color: lightgray;
+}
+
+#diceGif{
+    width: 200px;
+    height: 200px;
+}
+
+/* #container{
+    display: flex;
+    flex-direction: row;
+} */
+
+#header{
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background-color: #3D550C;
+}
+
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 20px 0 0 0;
+    width: auto;
+    height: 100px;
+    background-color: #3D550C;
+    overflow: hidden;
+}
+
+#boardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playPoint{
+    font-size: 30px;
+}
+
+#commentry{
+    font-size: 20px;
+}
+
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.boardimg{
+    position: absolute;
+    border: medium solid;
+    width: 600px;
+    height: 600px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    margin: 20px 10px;
+}
+
+
+ #board{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 650px;
+    height: auto;
+ }
+
+.plyformat{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width:580px){
+
+    .format{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        border: thin solid;
+    }
+
+    .boardimg{
+        /* position: absolute; */
+        border: medium solid;
+        width: 300px;
+        height: 300px;
+    }
+
+    #board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 320px;
+        height: auto;
+     }
+
+    #boardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    #diceGif{
+        width: 100px;
+        height: 100px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    #controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plyformat{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+    }
+
+    #footer{
+        padding-top: 5px;
+        height: 50px;
+        width: 100%;
+    }
+
+    #footer h4{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    
+    button{
+        width: 100px;
+        height: 50px;
+        margin: 20px 10px;
+    }
+
+    #commentry{
+        font-size: 15px;
+    }
+
+    #playPoint{
+        font-size: 20px;
+    }
+}
