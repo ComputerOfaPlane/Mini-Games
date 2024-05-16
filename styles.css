@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.header {
+    background-color: #23262F;
+    color: #EBFA7E;
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+}
+
+.content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* justify-content: center; */
+    background-color: #25363E;
+}
+.board { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+    margin: 60px;
+}
+
+h1 {
+    background-color: #23262F;
+    color: #EBFA7E ;
+    padding: 10px;
+    border-radius: 10px; 
+    border: 4px solid #EBFA7E;
+}
+
+.board-place {
+    border: 3px solid #55D0AE;
+    padding: 40px;
+    background-color: #EBFA7E;
+    border-radius: 5px;
+}
+
+.controls { 
+    background-color: #EBFA7E;
+    border: 3px solid #55D0AE;
+    color: #25363E;
+    font-size: large;
+    border-radius: 6px;
+    font-family: serif;
+    margin-top: 30px;
+}
+/*  Experimenting with image
+#cell_20 {
+    background-image:url(./assets/Circle\ Button.png);
+    background-position: center;
+    background-size: contain;
+} */
