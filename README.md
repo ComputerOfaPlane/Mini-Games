@@ -1,3 +1,6 @@
+# Mini-Games
+a platform for mini-games :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
