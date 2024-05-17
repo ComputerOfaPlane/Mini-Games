@@ -9,6 +9,7 @@ commentry.textContent = "Let's Play!";
 commentry.style.textAlign = "center";
 commentry.style.fontSize = "40px";
 commentry.style.color = "white";
+commentry.style.fontFamily = "Montserrat";
 board.after(commentry);
 let setResetBtn = document.querySelector(".controls");
 let startBtn = document.querySelector("#start");

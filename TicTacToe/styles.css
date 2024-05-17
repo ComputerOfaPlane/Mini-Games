@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 body{
     margin: 0;
 }
+
 .header {
     background-color: #23262F;
     color: #EBFA7E;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
     padding: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .content { 
@@ -41,6 +48,7 @@ h1 {
     background-color: #EBFA7E;
     border: 3px solid #55D0AE;
     color: #25363E;
+    font-family: 'Montserrat';
     border-radius: 6px;
 }
 
@@ -66,6 +74,7 @@ h1 {
     background-color: #EBFA7E;
     border: 3px solid #55D0AE;
     color: #25363E;
+    font-family: 'Montserrat';
     font-size: 30px;
     border-radius: 6px;
     margin-top: 10px;
