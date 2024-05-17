@@ -1,2 +1,2 @@
 # Mini-Games
-a platform for mini-games :)
+a platform for mini games :)
