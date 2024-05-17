@@ -1,15 +1,23 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
     margin: 0;
 }
+
 .header {
     background-color: #23262F;
     color: #EBFA7E;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
     padding: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 }
 
-.content { 
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +25,8 @@ body{
     /* justify-content: center; */
     background-color: #25363E;
 }
-.board { 
+
+.board {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px 10px;
@@ -26,9 +35,9 @@ body{
 
 h1 {
     background-color: #23262F;
-    color: #EBFA7E ;
+    color: #EBFA7E;
     padding: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
     border: 4px solid #EBFA7E;
 }
 
@@ -39,18 +48,13 @@ h1 {
     border-radius: 5px;
 }
 
-.controls { 
+.controls {
     background-color: #EBFA7E;
     border: 3px solid #55D0AE;
     color: #25363E;
     font-size: large;
     border-radius: 6px;
-    font-family: serif;
+    font-family: 'Montserrat';
     margin-top: 30px;
+    font-weight: bold;
 }
-/*  Experimenting with image
-#cell_20 {
-    background-image:url(./assets/Circle\ Button.png);
-    background-position: center;
-    background-size: contain;
-} */
