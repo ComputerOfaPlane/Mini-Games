@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="app.js"></script>
 </head>
 
 <body>
@@ -16,20 +15,21 @@
     </div>
     <div class="content">
       
-        <div class="board">
-            <button class="board-place" id="cell_00"> </button>
-            <button class="board-place" id="cell_01"> </button>
-            <button class="board-place" id="cell_02"> </button>
-            <button class="board-place" id="cell_10"> </button>
-            <button class="board-place" id="cell_11"> </button>
-            <button class="board-place" id="cell_12"> </button>
-            <button class="board-place" id="cell_20"> </button>
-            <button class="board-place" id="cell_21"> </button>
-            <button class="board-place" id="cell_22"> </button>
+        <div id="board">
+            <div class="board-place" id="cell0"> </div>
+            <div class="board-place" id="cell1"> </div>
+            <div class="board-place" id="cell2"> </div>
+            <div class="board-place" id="cell3"> </div>
+            <div class="board-place" id="cell4"> </div>
+            <div class="board-place" id="cell5"> </div>
+            <div class="board-place" id="cell6"> </div>
+            <div class="board-place" id="cell7"> </div>
+            <div class="board-place" id="cell8"> </div>
         </div>
-        <button class="controls">Reset Game</button>
+        <button id="start">Start</button>
+        <button class="controls">Reset</button>
     </div>
-
+    <script src="app.js"></script>
 </body>
 
 </html>

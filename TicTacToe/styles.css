@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-body {
+body{
     margin: 0;
 }
 
@@ -14,10 +14,9 @@ body {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
 
-.content {
+.content { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,36 +24,65 @@ body {
     /* justify-content: center; */
     background-color: #25363E;
 }
-
-.board {
+#board { 
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px 10px;
-    margin: 60px;
+    margin: 60px 0 5px 0;
 }
 
 h1 {
     background-color: #23262F;
-    color: #EBFA7E;
+    color: #EBFA7E ;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px; 
     border: 4px solid #EBFA7E;
 }
 
+
+
+#start{
+    font-size: 30px;
+    height: 60px;
+    width: 180px;
+    background-color: #EBFA7E;
+    border: 3px solid #55D0AE;
+    color: #25363E;
+    font-family: 'Montserrat';
+    border-radius: 6px;
+}
+
 .board-place {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
     border: 3px solid #55D0AE;
     padding: 40px;
     background-color: #EBFA7E;
     border-radius: 5px;
+    height: 20px;
+    width: 20px;
 }
 
-.controls {
+.board-place:hover {
+    background-color: #c7e104;
+}
+
+.controls { 
+    font-size: 30px;
+    height: 60px;
+    width: 180px;
     background-color: #EBFA7E;
     border: 3px solid #55D0AE;
     color: #25363E;
-    font-size: large;
-    border-radius: 6px;
     font-family: 'Montserrat';
-    margin-top: 30px;
-    font-weight: bold;
+    font-size: 30px;
+    border-radius: 6px;
+    margin-top: 10px;
 }
+/*  Experimenting with image
+#cell_20 {
+    background-image:url(./assets/Circle\ Button.png);
+    background-position: center;
+    background-size: contain;
+} */
